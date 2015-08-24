@@ -43,6 +43,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.1568408092" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug"/>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.616763043.973937869" name="RB-tree.c" rcbsApplicability="disable" resourcePath="src/RB-tree.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1192465694.2097518279">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1192465694.2097518279" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1192465694"/>
+					</fileInfo>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -103,5 +106,12 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/RB-tree"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/RB-tree"/>
+		</configuration>
+	</storageModule>
 </cproject>
