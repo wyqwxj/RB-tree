@@ -1,7 +1,7 @@
 #include "RB-tree.h"
 #include <stdio.h>
-#define OK 1
-#define ERR 0
+#define OK ((bool)1)
+#define ERR ((bool)0)
 #define NULL ((void *)0)
 
 typedef enum
