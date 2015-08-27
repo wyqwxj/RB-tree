@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	src/RB-tree.c	/^	RED, BLACK$/;"	e	enum:__anon1	file:
+ColorType	src/RB-tree.c	/^} ColorType;$/;"	t	typeref:enum:__anon1	file:
+ERR	src/RB-tree.c	/^#define ERR /;"	d	file:
+LEFT_ROTATE	src/RB-tree.c	/^static inline void LEFT_ROTATE(RB_tree *T, Node *pNodeX)$/;"	f	file:
+NULL	src/RB-tree.c	/^#define NULL /;"	d	file:
+Node	src/RB-tree.c	/^typedef struct Node$/;"	s	file:
+Node	src/RB-tree.c	/^} Node;$/;"	t	typeref:struct:Node	file:
+OK	src/RB-tree.c	/^#define OK /;"	d	file:
+RB_Tree_InsertNode	src/RB-tree.c	/^int RB_Tree_InsertNode(RB_tree *pTree, int data)$/;"	f
+RB_tree	src/RB-tree.c	/^typedef struct RB_tree$/;"	s	file:
+RB_tree	src/RB-tree.c	/^} RB_tree;$/;"	t	typeref:struct:RB_tree	file:
+RED	src/RB-tree.c	/^	RED, BLACK$/;"	e	enum:__anon1	file:
+RIGHT_ROTATE	src/RB-tree.c	/^static inline void RIGHT_ROTATE(RB_tree *T, Node *pNodeY)$/;"	f	file:
+T	src/RB-tree.c	/^RB_tree T;$/;"	v
+color	src/RB-tree.c	/^	ColorType color;$/;"	m	struct:Node	file:
+data	src/RB-tree.c	/^	int data;$/;"	m	struct:Node	file:
+main	src/RB-tree.c	/^int main(int argc, char **argv)$/;"	f
+pLeft	src/RB-tree.c	/^	struct Node *pLeft;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+pParent	src/RB-tree.c	/^	struct Node *pParent;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+pRight	src/RB-tree.c	/^	struct Node *pRight;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+root	src/RB-tree.c	/^	Node *root;$/;"	m	struct:RB_tree	file:
